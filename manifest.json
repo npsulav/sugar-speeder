@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "version":"1.0.0",
+    "name": "Sugar Speeder",
+    "description": "Sugar speeder allows you to speed up HTML5 Videos speed including youtube videos to custom speed.",
+    "permissions":["activeTab"],
+    "icons" : {"128": "favicon.png"},
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_icon": "favicon.png"
+    }
+}
